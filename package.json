@@ -1,0 +1,16 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "Project to execute problems",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "twoSum": "jest TwoSum.spec.js --watch --verbose=true",
+    "palindrome": "jest Palindrome.spec.js --watch",
+    "LongestString": "jest LongestSubstring.spec.js --watch",
+    "CountLetters": " jest CountLetters.spec.js --watch"
+  },
+  "dependencies": {
+    "jest": "^25.1.0"
+  }
+}
