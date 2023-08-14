@@ -1,7 +1,8 @@
-const LongestSubstring = require("./LongestSubstring");
+const { expect } = require("chai");
+const LongestSubstring = require("../src/LongestSubstring");
 
 describe("it should show the longest substring withou repeating", () => {
-/*   it("Should show a 3 for 'abcabcbb'", () => {
+  it("Should show a 3 for 'abcabcbb'", () => {
     expect(LongestSubstring("abcabcbb")).toBe(3);
   });
 
@@ -19,7 +20,7 @@ describe("it should show the longest substring withou repeating", () => {
 
   it("Should show a 1 for ' '", () => {
     expect(LongestSubstring(" ")).toBe(1);
-  }); */
+  });
 
   it("Should show a 2 for 'au'", () => {
     expect(LongestSubstring("au")).toBe(2);

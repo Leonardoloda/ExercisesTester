@@ -5,12 +5,17 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "twoSum": "jest TwoSum.spec.js --watch --verbose=true",
-    "palindrome": "jest Palindrome.spec.js --watch",
-    "LongestString": "jest LongestSubstring.spec.js --watch",
-    "CountLetters": " jest CountLetters.spec.js --watch"
+    "test": "mocha tests/*.test.js"
   },
   "dependencies": {
-    "jest": "^25.1.0"
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.47.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.28.0",
+    "prettier": "3.0.1"
   }
 }

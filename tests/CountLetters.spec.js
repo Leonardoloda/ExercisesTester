@@ -1,4 +1,5 @@
-const CountLetters = require("./CountLetters");
+const { expect } = require("chai");
+const CountLetters = require("../src/CountLetters");
 
 describe("Count the repetitions of each letter", () => {
   it("Should render the a json with 2 o's and 1 for each letter in Leonardo", () => {
@@ -9,7 +10,7 @@ describe("Count the repetitions of each letter", () => {
       n: 1,
       a: 1,
       r: 1,
-      d: 1
+      d: 1,
     });
   });
 });
